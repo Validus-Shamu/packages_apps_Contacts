@@ -998,7 +998,7 @@ public class QuickContactActivity extends ContactsActivity {
             mHasComputedThemeColor = true;
             setThemeColor(mMaterialColorMapUtils
                     .calculatePrimaryAndSecondaryColor(getResources()
-                            .getColor(R.color.letter_tile_red_color)));
+                            .getColor(R.color.spam_color)));
             setSpamCountText(spamCount);
         }
 
